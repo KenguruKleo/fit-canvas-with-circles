@@ -1,6 +1,6 @@
 {
   "name": "fit-canvas-with-circles",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Randomly fit canvas with circles (return object with coordinates and radius)",
   "main": "dist/index.js",
   "files": [
@@ -20,10 +20,8 @@
     "url": "git+https://github.com/KenguruKleo/fit-canvas-with-circles.git"
   },
   "keywords": [
-    "higher order component",
-    "HOC",
-    "Redux",
-    "React"
+    "utils",
+    "math",
   ],
   "author": "Konstantin Yemelianov",
   "license": "MPL-2.0",
