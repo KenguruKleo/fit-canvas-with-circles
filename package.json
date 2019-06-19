@@ -1,6 +1,6 @@
 {
-  "name": "with-load-data",
-  "version": "1.1.1",
+  "name": "fit-canvas-with-circles",
+  "version": "1.0.0",
   "description": "Randomly fit canvas with circles (return object with coordinates and radius)",
   "main": "dist/index.js",
   "files": [
