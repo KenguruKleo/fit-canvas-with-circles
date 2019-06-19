@@ -1,0 +1,47 @@
+{
+  "name": "with-load-data",
+  "version": "1.1.1",
+  "description": "Randomly fit canvas with circles (return object with coordinates and radius)",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "peerDependencies": {},
+  "scripts": {
+    "lint": "eslint || true",
+    "prebuild": "rimraf dist",
+    "prepare": "npm run build",
+    "test": "node test || true",
+    "start": "webpack --watch",
+    "build": "rimraf dist && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenguruKleo/fit-canvas-with-circles.git"
+  },
+  "keywords": [
+    "higher order component",
+    "HOC",
+    "Redux",
+    "React"
+  ],
+  "author": "Konstantin Yemelianov",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/KenguruKleo/fit-canvas-with-circles/issues"
+  },
+  "homepage": "https://github.com/KenguruKleo/fit-canvas-with-circles.git#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "cross-env": "^5.1",
+    "rimraf": "^2.6.3",
+    "webpack-cli": "^3.2.3",
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {}
+}
