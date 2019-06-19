@@ -1,5 +1,9 @@
 ## Randomly fit circles into canvas
 
+Example fit canvas:
+
+![Example image](example/example-img.png?raw=true "Example")
+
 For initial settings:
 
 ```
